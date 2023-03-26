@@ -1,2 +1,2 @@
-background: rgb(5,255,219);
-background: linear-gradient(90deg, rgba(5,255,219,1) 0%, rgba(138,138,222,1) 50%, rgba(0,154,5,1) 100%);
+* { background: rgb(5,255,219);
+background: linear-gradient(90deg, rgba(5,255,219,1) 0%, rgba(138,138,222,1) 50%, rgba(0,154,5,1) 100%); }
