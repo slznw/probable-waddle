@@ -1,6 +1,35 @@
-* { background: rgb(5,255,219);
-background: linear-gradient(90deg, rgba(5,255,219,1) 0%, rgba(138,138,222,1) 50%, rgba(0,154,5,1) 100%); }
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+* {
+    font-family: 'Comfortaa', cursive;
+    margin: 0px;
+    padding: 0px;
+}
 
 .footer {
     text-align: center; 
+}
+
+.main-block {
+    color: gray;
+    background-color: aqua;
+    text-align: center;
+}
+.news-block {
+    background-color: darkorange;
+    display: block;
+}
+.addnews-block {
+    background-color: crimson;
+    color: lightgray;
+}
+.about-news{
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+.about-site{
+    background-color: yellowgreen;
 }

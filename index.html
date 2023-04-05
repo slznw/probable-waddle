@@ -3,27 +3,40 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="text/javascript" src="addnews.js"></script>
+	<script type="text/javascript" src="news.js"></script>
 	<link href="style.css" rel="stylesheet">
-	<title>ПрогБлог</title>
+	<title>НашБлог</title>
 </head>
 <body>
 	<div class="main-block">
-		<h1>Добро пожаловать на ПрогБлог!</h1>
-		<h2>ПрогБлог - блог о программировании и о чем-то еще.. (о чем - не знает никто)</h2>
+		<h1>Добро пожаловать на НашБлог!</h1>
+		<br>
+		<h2>Будьте на нашей волне :D</h2>
 	</div>
-	<br>
-	<div>
+
+	<div class="addnews-block">
+		<h2>Желаете поучаствовать в жизни сайта? Оставьте новость!</h2>
+		<br>
+		<form >
+			<input id="text" type="text" name="text">
+			<button onclick="addnews()" type="button">Добавить новость</button>
+			<br>
+			<button onclick="clearfield()" type="reset">Очистить поле</button>
+			<br>
+		</form>
+	</div>
+	<div class="about-site">
+		<h2 class="about">О сайте</h2>
+		<p></p>
+	</div>
+	<div class="news-block">
+		<p class="about-news">Это - новостной блог. Здесь публикуются новости, добавляемые вами на сайте. Для обновления нажмите на кнопку ниже.</p>
+		<br>
+		<p id="news-text">Пока никто ничего не написал :(</p>
+		<br>
 		<button onclick="getnews()" type="button">Обновить новостную ленту</button>
 	</div>
-	<br>
-		<form >
-	<input id="text" type="text" name="text">
-	<button onclick="addnews()" type="button">Добавить новость</button>
 
-<script  type="text/javascript">
 
-</script>
-	<footer class="footer">Сайт размещен на платформе GitHub Sites ○ 1997</footer>
 </body>
 </html>
