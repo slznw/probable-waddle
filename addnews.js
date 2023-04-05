@@ -1,5 +1,9 @@
-		var news = document.getElementsByName('text').value;
-		function addnews() {
-			localStorage.setItem("news", news.value )
-			console.log('Записал');
-		} 
+function addnews(){
+	var inputText= document.getElementById("text");
+	localStorage.setItem("text", inputText.value);
+   alert("Успешно добавлено!")
+   }
+function getnews() {
+	localStorage.getItem("text")
+	console.log("Обновлено!");
+}

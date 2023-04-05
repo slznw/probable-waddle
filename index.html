@@ -14,22 +14,15 @@
 	</div>
 	<br>
 	<div>
-	<script  type="text/javascript">
-		JSON.parse(localStorage.getItem("text"));
-	</script>
-		
+		<button onclick="getnews()" type="button">Обновить новостную ленту</button>
 	</div>
 	<br>
 		<form >
 	<input id="text" type="text" name="text">
-	<button onclick="store()" type="button">Добавить новость</button>
+	<button onclick="addnews()" type="button">Добавить новость</button>
 
 <script  type="text/javascript">
-  function store(){
-     var inputText= document.getElementById("text");
-     localStorage.setItem("text", inputText.value);
-	alert("Успешно добавлено!")
-    }
+
 </script>
 	<footer class="footer">Сайт размещен на платформе GitHub Sites ○ 1997</footer>
 </body>
