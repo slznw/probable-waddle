@@ -14,3 +14,6 @@ function clearnews() {
 	localStorage.removeItem("text")
 	alert("Новость успешно удалена.")
 }
+function boom() {
+	document.write("ERROR 404 <br> Сайт не найден! <br> Обновите позже или попробуйте страницу.")
+}
