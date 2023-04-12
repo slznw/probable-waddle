@@ -15,17 +15,11 @@ body{
 }
 
 .main-block {
-    color: gray;
-    background-color: aqua;
-    text-align: center;
+text-align: center;
 }
 .news-block {
-    background-color: darkorange;
-    display: block;
-}
-.addnews-block {
     background-color: crimson;
-    color: lightgray;
+    display: block;
 }
 .about-news{
     text-align: center;
@@ -36,8 +30,9 @@ body{
 .about-site{
     background-color: yellowgreen;
 }
+
 .about-maker{
-    background-color: darkkhaki;
+    background-color: yellowgreen;
     text-align: center;
 }
 .marktext{
@@ -48,4 +43,7 @@ body{
 }
 footer{
     text-align: center;
+}
+.addnews-block{
+    background-color: crimson;
 }
