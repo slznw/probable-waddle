@@ -7,7 +7,7 @@
     padding: 0px;
 }
 body{
-    background-color: lightblue;
+    background-color: lightsalmon;
 }
 
 .footer {
@@ -18,7 +18,7 @@ body{
 text-align: center;
 }
 .news-block {
-    background-color: crimson;
+    background-color: lightgoldenrodyellow;
     display: block;
 }
 .about-news{
@@ -28,11 +28,11 @@ text-align: center;
     text-align: center;
 }
 .about-site{
-    background-color: yellowgreen;
+    background-color: rgb(176, 238, 176);
 }
 
 .about-maker{
-    background-color: yellowgreen;
+    background-color: rgb(176, 238, 176);
     text-align: center;
 }
 .marktext{
@@ -45,5 +45,20 @@ footer{
     text-align: center;
 }
 .addnews-block{
-    background-color: crimson;
+    background-color: lightgoldenrodyellow;
+}
+.but-2 {
+    margin:20px auto;
+    color: #FFFFFF;
+    font:bold 16px arial;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+    background: linear-gradient(to bottom, #209DCA, #0F84AF) repeat scroll 0 0 / 100% 200% rgba(0, 0, 0, 0);
+    transition: all 0.1s linear 0s;
+}
+.but-2:hover,.but-2:focus{
+    background-position: 0 -102%;
 }

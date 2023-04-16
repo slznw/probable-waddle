@@ -28,28 +28,26 @@
 		<h2 class="marktext">Желаете поучаствовать в жизни сайта? Оставьте новость!</h2>
 		<br>
 		<form >
-			<input id="text" type="text" name="text">
-			<button onclick="addnews()" type="button">Добавить новость</button>
-			<br>
-			<button onclick="clearfield()" type="reset">Очистить поле</button>
-			<br>
-			<button onclick="clearnews()" type="button">Удалить добавленную новость</button>
+			Введите имя: <input id="author" type="text" name="author">
+			Введите текст новости: <textarea id="text" type="textarea" name="text"></textarea>
+			<button class="but-2" onclick="addnews()" type="button">Добавить новость</button>
+			<button class="but-2" onclick="clearfield()" type="reset">Очистить поле</button>
+			<button class="but-2" onclick="clearnews()" type="button">Удалить новость</button>
 		</form>
 	</div>
-	
 	<div class="news-block">
 		<h2 class="newspaper">Новостная лента</h2>
 		<p class="about-news">Здесь публикуются новости, добавляемые вами на сайте. Для обновления нажмите на кнопку ниже. Можно добавлять любые позитивные новости. Также предусмотрено их удаление</p>
 		<br>
-		<p id="news-text"></p>
+		<p id="news-author"><p id="news-text"></p></p>
 		<br>
-		<button onclick="getnews()" type="button">Обновить новостную ленту</button>
+		<button class="but-2" onclick="getnews()" type="button">Обновить новостную ленту</button>
 	</div>
 	<footer>Создано в 2023 :D
 		<br>
-		<button onclick="boom()" type="button">Сломать весь сайт</button>
+		by Semen Seleznev (seleznevv)
+		<br>
+		<button class="but-2" onclick="boom()" type="button">Сломать весь сайт</button>
 	</footer>
-
-<!--5c7a92f48c8c20eede0d89af692f913c9d7cb151e02dabed6dd5c9a5bbcd27a4-->
 </body>
 </html>
