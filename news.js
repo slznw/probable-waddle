@@ -10,9 +10,6 @@ function news(){
 	newsAuthor.innerText = localStorage.getItem("author")
 
    }
-function getnews() {
-
-}
 function clearfield() {
 	alert("Поле успешно очищено")
 }
