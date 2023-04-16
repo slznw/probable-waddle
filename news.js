@@ -1,15 +1,17 @@
-function addnews(){
+function news(){
 	var inputText= document.getElementById("text");
 	var inputAuthor= document.getElementById("author");
 	localStorage.setItem("text", inputText.value);
 	localStorage.setItem("author", inputAuthor.value);
 	alert("Успешно добавлено!")
-   }
-function getnews() {
 	const newsText = document.getElementById('news-text')
 	const newsAuthor = document.getElementById('news-author')
 	newsText.innerText = localStorage.getItem("text")
 	newsAuthor.innerText = localStorage.getItem("author")
+
+   }
+function getnews() {
+
 }
 function clearfield() {
 	alert("Поле успешно очищено")
