@@ -19,7 +19,7 @@ text-align: center;
 }
 .news-block {
     background-color: lightgoldenrodyellow;
-    display: block;
+    text-align: center
 }
 .about-news{
     text-align: center;
