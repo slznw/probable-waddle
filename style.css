@@ -19,7 +19,7 @@ body{
 text-align: center;
 }
 .news-block {
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
     text-align: center
 }
 .about-news{
@@ -29,11 +29,11 @@ text-align: center;
     text-align: center;
 }
 .about-site{
-    background-color: rgb(176, 238, 176);
+    /* background-color: rgb(176, 238, 176); */
 }
 
 .about-maker{
-    background-color: rgb(176, 238, 176);
+    /* background-color: rgb(176, 238, 176); */
     text-align: center;
 }
 .marktext{
@@ -46,7 +46,7 @@ footer{
     text-align: center;
 }
 .addnews-block{
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
 }
 .but-2 {
     margin:20px auto;
