@@ -11,8 +11,8 @@ function news_script1(){
 
    }
    function news_script2(){
-	var inputText2= document.getElementById("text2");
-	var inputAuthor2= document.getElementById("author2");
+	var inputText2= document.getElementById("text");
+	var inputAuthor2= document.getElementById("author");
 	localStorage.setItem("text2", inputText2.value);
 	localStorage.setItem("author2", inputAuthor2.value);
 	alert("Успешно добавлено!")
@@ -23,8 +23,8 @@ function news_script1(){
 
    }
    function news_script3(){
-	var inputText3= document.getElementById("text3");
-	var inputAuthor3= document.getElementById("author3");
+	var inputText3= document.getElementById("text");
+	var inputAuthor3= document.getElementById("author");
 	localStorage.setItem("text3", inputText3.value);
 	localStorage.setItem("author3", inputAuthor3.value);
 	alert("Успешно добавлено!")
