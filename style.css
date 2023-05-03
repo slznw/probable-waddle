@@ -14,7 +14,6 @@
 text-align: center;
 }
 .news-block {
-    /* background-color: lightgoldenrodyellow; */
     text-align: center
 }
 .about-news{
@@ -23,12 +22,7 @@ text-align: center;
 .about{
     text-align: center;
 }
-.about-site{
-    /* background-color: rgb(176, 238, 176); */
-}
-
 .about-maker{
-    /* background-color: rgb(176, 238, 176); */
     text-align: center;
 }
 .marktext{
@@ -39,9 +33,6 @@ text-align: center;
 }
 footer{
     text-align: center;
-}
-.addnews-block{
-    /* background-color: lightgoldenrodyellow; */
 }
 .but-2 {
     margin:20px auto;
