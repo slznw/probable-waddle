@@ -14,9 +14,13 @@ function clearfield() {
 	alert("Поле успешно очищено")
 }
 function clearnews() {
-	alert("Новость успешно удалена.")
 	localStorage.removeItem("text")
 	localStorage.removeItem("author")
+	alert("Новость успешно удалена.")
+	const newsText = document.getElementById('news-text')
+	const newsAuthor = document.getElementById('news-author')
+	newsText.innerText = "Текст новости"
+	newsAuthor.innerText = "Автор новости" 
 
 }
 function boom() {
