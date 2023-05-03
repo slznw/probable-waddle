@@ -69,7 +69,6 @@ footer{
     margin: 40px 0 5px;
     padding: 25px 0 5px;
     text-align: center;
-    background: white;
   }
   .menu-main li {display: inline-block;}
   .menu-main li:after {
@@ -81,7 +80,6 @@ footer{
   .menu-main li:last-child:after {content: none;}
   .menu-main a {
     text-decoration: none;
-    font-family: 'Ubuntu Condensed', sans-serif;
     letter-spacing: 2px;
     position: relative;
     padding-bottom: 20px;
