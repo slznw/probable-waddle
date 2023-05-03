@@ -11,11 +11,12 @@
 	<div class="background"></div>
 <div class="content">
 	<ul class="menu-main">
-		<li><a href="" class="current">заГлавная</a></li>
-		<li><a href="">Информация о сайте</a></li>
-		<li><a href="">Добавить новость</a></li>
-		<li><a href="">Новостной блок</a></li>
+		<li><a href="#top" class="current">заГлавная</a></li>
+		<li><a href="#about-maker-site">Информация о сайте</a></li>
+		<li><a href="#addnews">Добавить новость</a></li>
+		<li><a href="#news">Новостной блок</a></li>
 	  </ul>
+	  <a name="top"></a>
 	<div class="main-block">
 		<h1>Добро пожаловать на НашБлог!</h1>
 		<br>
@@ -24,6 +25,7 @@
 	<br>
 	<br>
 	<div class="about-maker">
+		<a name="about-maker-site"</a>
 		<h2>О создателе сайта</h2>
 		<br>
 		Привет! Я Семен, начинающий разработчик. Уже сейчас могу сделать простенький сайт на html+css+js. Живу в Иркутске, люблю котиков :D Если вы зашли на этот сайт, то либо вы проверяете мою дипломную работу, либо вы просто не знаете куда деть свое время :D Я просто не мог не добавить минутку <s>занимательной</s> информации обо мне! Приятного дня!
@@ -36,6 +38,7 @@
 	<br>
 	<br>
 	<div class="addnews-block">
+		<a name="addnews"></a>
 		<h2 class="marktext">Желаете поучаствовать в жизни сайта? Оставьте новость!</h2>
 		<br>
 		<form >
@@ -48,11 +51,14 @@
 		
 	</div>
 	<div class="news-block">
+		<a name="news"></a>
 		<h2 class="newspaper">Новостная лента</h2>
 		<br>
 		<p id="news-author">Автор новости<p id="news-text">Текст новости <br> </p></p>
 		<br>
-		<button class="but-2" onclick="clearnews()" type="button">Удалить новость</button>
+		<p id="news-author1">Автор новости1<p id="news-text1">Текст новости1<br> </p></p>
+		<p id="news-author2">Автор новости2<p id="news-text2">Текст новости2<br> </p></p>
+		<button class="but-2" onclick="clearnews()" type="button">Удалить новости</button>
 		</form>
 	</div>
 	<footer>Создано в 2023 :D
