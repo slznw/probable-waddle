@@ -90,7 +90,7 @@ footer{
     transition: color .2s;
   }
   .menu-main a, .menu-main a:visited {color: #000000;}
-  .menu-main a.current, a.info, a.adddnews, a.newsblock, .menu-main a:hover{color: #ff9452;}
+  .menu-main a.current a.info a.adddnews a.newsblock, .menu-main a:hover{color: #ff9452;}
   .menu-main a:before,
   .menu-main a:after {
     content: "";
