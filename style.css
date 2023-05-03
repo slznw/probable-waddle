@@ -103,8 +103,8 @@ footer{
     background: #feb386;
     transition: .8s;
   }
-  .menu-main a:hover:before, .menu-main .current:before, .info:before, .adddnews:before, .newsblock:before {left: 0;}
-  .menu-main a:hover:after, .menu-main .current:after, .info:after, .adddnews:after, .newsblock:after {right: 0;}   
+  /* .menu-main a:hover:before, .menu-main .current:before, .info:before, .adddnews:before, .newsblock:before {left: 0;}
+  .menu-main a:hover:after, .menu-main .current:after, .info:after, .adddnews:after, .newsblock:after {right: 0;}    */
   @media (max-width: 550px) {
   .menu-main {padding-top: 0;}
   .menu-main li {display: block;}
