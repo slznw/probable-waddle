@@ -62,7 +62,6 @@ footer{
     bottom: -10px;
     filter: blur(5px);
     background: url(images/main.jpeg) no-repeat center;
-    overflow-x:hidden;
     background-size: cover;
 }
 .menu-main {
