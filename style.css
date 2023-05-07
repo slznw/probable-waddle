@@ -54,7 +54,7 @@ footer{
 }
 .content {
     position: relative;
-    z-index: 2;
+    z-index: 3;
   }
 .background{
     position: absolute;
@@ -72,11 +72,11 @@ footer{
 }
 .background2{
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     left: -10px;
     top: -10px;
     right: -10px;
-    bottom: -10px;
+    bottom: -1086px;
     filter: blur(5px);
     background: url(images/main2.png) no-repeat center top fixed;
     -webkit-background-size: cover;
