@@ -1,9 +1,12 @@
 function news_script1(){
 	var inputText= document.getElementById("text");
 	var inputAuthor= document.getElementById("author");
+	if(localStorage.getItem('text' == '') {
 	localStorage.setItem("text", inputText.value);
 	localStorage.setItem("author", inputAuthor.value);
 	alert("Успешно добавлено!")
+}
+
 	const newsText = document.getElementById('news-text')
 	const newsAuthor = document.getElementById('news-author')
 	newsText.innerText = localStorage.getItem("text")
