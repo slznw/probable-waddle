@@ -65,6 +65,7 @@ footer{
     bottom: -10px;
     filter: blur(5px);
     background: url(images/main.jpg) center;
+    background-repeat: round;
     background-size: cover;
 }
 .menu-main {
