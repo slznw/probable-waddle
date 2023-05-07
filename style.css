@@ -79,7 +79,7 @@ footer{
   .menu-main li {display: inline-block;}
   .menu-main li:after {
     content: "|";
-    color: #000000;
+    color: lightgray;
     display: inline-block;
     vertical-align:top;
   }
