@@ -64,8 +64,10 @@ footer{
     right: -10px;
     bottom: -10px;
     filter: blur(5px);
-    background: url(images/main.jpg) center;
-    background-repeat: round;
+    background: url(images/main.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .menu-main {
