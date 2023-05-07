@@ -3,8 +3,8 @@
 
 * {
     font-family: 'Jura', sans-serif;
-    margin: 0px;
-    padding: 0px;
+ /*   margin: 0px;
+    padding: 0px; */
 }
 .footer {
     text-align: center; 
@@ -64,7 +64,7 @@ footer{
     right: -10px;
     bottom: -10px;
     filter: blur(5px);
-    background: url(images/main.jpg) no-repeat center;
+    background: url(images/main.jpg) center;
     background-size: cover;
 }
 .menu-main {
