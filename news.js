@@ -1,11 +1,14 @@
 function news_script1(){
 	var inputText= document.getElementById("text");
 	var inputAuthor= document.getElementById("author");
-	if(localStorage.getItem('text' == '') {
+	if(localStorage.getItem('text' != '') {
+	localStorage.setItem("text2", inputText.value);
+	localStorage.setItem("author2", inputAuthor.value);
+	alert("Успешно добавлено!")
+} else {
 	localStorage.setItem("text", inputText.value);
 	localStorage.setItem("author", inputAuthor.value);
-	alert("Успешно добавлено!")
-}
+};
 
 	const newsText = document.getElementById('news-text')
 	const newsAuthor = document.getElementById('news-author')
