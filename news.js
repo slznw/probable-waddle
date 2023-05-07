@@ -1,7 +1,7 @@
 function news_script1(){
 	var inputText= document.getElementById("text");
 	var inputAuthor= document.getElementById("author");
-	if(localStorage.getItem('text' != '')) {
+	if(localStorage.getItem('text' == '')) {
 	localStorage.setItem("text2", inputText.value);
 	localStorage.setItem("author2", inputAuthor.value);
 	alert("Успешно добавлено!")
