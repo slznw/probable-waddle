@@ -1,11 +1,3 @@
-$( document ).ready(function() {
-  $('.trigger').on('click', function() {
-     $('.modal-wrapper').toggleClass('open');
-    $('.page-wrapper').toggleClass('blur-it');
-     return false;
-  });
-});
-
 function news_script1(){
 	var inputText= document.getElementById("text");
 	var inputAuthor= document.getElementById("author");
