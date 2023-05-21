@@ -33,6 +33,30 @@ function news_script1(){
 	newsAuthor3.innerText = localStorage.getItem("author3")
 
    }
+   function news_script4(){
+	var inputText4= document.getElementById("text");
+	var inputAuthor4= document.getElementById("author");
+	localStorage.setItem("text4", inputText4.value);
+	localStorage.setItem("author4", inputAuthor4.value);
+	alert("Успешно добавлено!")
+	const newsText4 = document.getElementById('news-text4')
+	const newsAuthor4 = document.getElementById('news-author4')
+	newsText4.innerText = localStorage.getItem("text4")
+	newsAuthor4.innerText = localStorage.getItem("author4")
+
+   }
+   function news_script5(){
+	var inputText5= document.getElementById("text");
+	var inputAuthor5= document.getElementById("author");
+	localStorage.setItem("text5", inputText5.value);
+	localStorage.setItem("author5", inputAuthor5.value);
+	alert("Успешно добавлено!")
+	const newsText5 = document.getElementById('news-text5')
+	const newsAuthor5 = document.getElementById('news-author5')
+	newsText5.innerText = localStorage.getItem("text5")
+	newsAuthor5.innerText = localStorage.getItem("author5")
+
+   }
 function clearfield() {
 	alert("Поле успешно очищено")
 }
