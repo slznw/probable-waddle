@@ -75,6 +75,7 @@ footer{
     margin: 40px 0 5px;
     padding: 25px 0 5px;
     text-align: center;
+    color: white;
   }
   .menu-main li {display: inline-block;}
   .menu-main li:after {
