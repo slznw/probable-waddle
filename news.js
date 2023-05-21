@@ -46,6 +46,3 @@ function clearnews() {
 	newsAuthor.innerText = "Автор новости" 
 
 }
-function boom() {
-	document.write("ERROR 404 <br> Сайт не найден! <br> Обновите позже или попробуйте страницу.")
-}
