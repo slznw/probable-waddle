@@ -1,6 +1,17 @@
 function news_script1(){
 		var inputText= document.getElementById("text");
 	if(inputText != ""){
+				var inputText2= document.getElementById("text");
+		var inputAuthor2= document.getElementById("author");
+		localStorage.setItem("text2", inputText2.value);
+		localStorage.setItem("author2", inputAuthor2.value);
+		alert("Успешно добавлено!")
+		const newsText2 = document.getElementById('news-text2')
+		const newsAuthor2 = document.getElementById('news-author2')
+		newsText2.innerText = localStorage.getItem("text2")
+		newsAuthor2.innerText = localStorage.getItem("author2")
+
+	} else {
 		var inputText= document.getElementById("text");
 		var inputAuthor= document.getElementById("author");
 		localStorage.setItem("text", inputText.value);
@@ -10,16 +21,6 @@ function news_script1(){
 		const newsAuthor = document.getElementById('news-author')
 		newsText.innerText = localStorage.getItem("text")
 		newsAuthor.innerText = localStorage.getItem("author")
-	} else {
-		var inputText2= document.getElementById("text");
-		var inputAuthor2= document.getElementById("author");
-		localStorage.setItem("text2", inputText2.value);
-		localStorage.setItem("author2", inputAuthor2.value);
-		alert("Успешно добавлено!")
-		const newsText2 = document.getElementById('news-text2')
-		const newsAuthor2 = document.getElementById('news-author2')
-		newsText2.innerText = localStorage.getItem("text2")
-		newsAuthor2.innerText = localStorage.getItem("author2")
 	};
    }
    function news_script2(){
