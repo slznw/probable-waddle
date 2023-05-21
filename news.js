@@ -10,7 +10,7 @@ function news_script1(){
 		const newsAuthor = document.getElementById('news-author')
 		newsText.innerText = localStorage.getItem("text")
 		newsAuthor.innerText = localStorage.getItem("author")
-	} else if {
+	} else {
 		var inputText2= document.getElementById("text");
 		var inputAuthor2= document.getElementById("author");
 		localStorage.setItem("text2", inputText2.value);
