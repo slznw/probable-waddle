@@ -1,4 +1,5 @@
 function news_script1(){
+		var inputText= document.getElementById("text");
 	if(inputText === ''){
 		var inputText= document.getElementById("text");
 		var inputAuthor= document.getElementById("author");
