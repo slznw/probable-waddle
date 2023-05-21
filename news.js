@@ -1,5 +1,5 @@
 function news_script1(){
-	if(inputText == ''){
+	if(inputText === ''){
 		var inputText= document.getElementById("text");
 		var inputAuthor= document.getElementById("author");
 		localStorage.setItem("text", inputText.value);
