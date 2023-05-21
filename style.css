@@ -95,6 +95,7 @@ footer{
     text-transform: uppercase;
     display: inline-block;
     transition: color .2s;
+      color: white;
   }
   .menu-main a, .menu-main a:visited {color: #000000;}
   .menu-main a:before,
