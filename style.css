@@ -37,21 +37,6 @@ text-align: center;
 footer{
     text-align: center;
 }
-.but-2 {
-    margin:20px auto;
-    color: #FFFFFF;
-    font:bold 16px arial;
-    height: 40px;
-    line-height: 35px;
-    text-align: center;
-    text-decoration: none;
-    width: 250px;
-    background: linear-gradient(to bottom, #209DCA, #0F84AF) repeat scroll 0 0 / 100% 200% rgba(0, 0, 0, 0);
-    transition: all 0.1s linear 0s;
-}
-.but-2:hover,.but-2:focus{
-    background-position: 0 -102%;
-}
 .content {
     position: relative;
     z-index: 3;
@@ -77,7 +62,9 @@ footer{
     text-align: center;
     color: white;
   }
-  .menu-main li {display: inline-block;}
+  .menu-main li {display: inline-block;} {
+      color: white;
+}
   .menu-main li:after {
     content: "|";
     color: lightgray;
