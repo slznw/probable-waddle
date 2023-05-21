@@ -67,7 +67,7 @@ footer{
 }
   .menu-main li:after {
     content: "|";
-    color: lightgray;
+    color: black;
     display: inline-block;
     vertical-align:top;
   }
