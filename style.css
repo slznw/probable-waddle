@@ -1,114 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 * {
-    font-family: 'Jura', sans-serif;
- /*   margin: 0px;
-    padding: 0px; */
+  font-family: 'Ubuntu', sans-serif;
+
 }
+
 .footer {
-    text-align: center; 
+  text-align: center;
 }
-body{
- color: black;   
+
+body {
+  background: rgb(185, 133, 133);
+  background: linear-gradient(90deg, rgba(185, 133, 133, 1) 0%, rgb(16, 99, 207) 59%, rgb(28, 92, 172) 100%);
+  color: rgb(0, 0, 0);
 }
 
 .main-block {
-text-align: center;
+  text-align: center;
 }
+
 .news-block {
-    text-align: center
+  text-align: center
 }
-.about-news{
-    text-align: center;
+
+.about-news {
+  text-align: center;
 }
-.about{
-    text-align: center;
+
+.about {
+  text-align: center;
 }
-.about-maker{
-    text-align: center;
+
+.about-maker {
+  text-align: center;
 }
-.marktext{
-    text-align: center;
+
+.marktext {
+  text-align: center;
 }
-.newspaper{
-    text-align: center;
+
+.newspaper {
+  text-align: center;
 }
-footer{
-    text-align: center;
+
+footer {
+  text-align: center;
 }
+
 .content {
-    position: relative;
-    z-index: 3;
-  }
-.background2{
-    position: absolute;
-    z-index: 2;
-    left: -10px;
-    top: -10px;
-    right: -10px;
-    bottom: -1286px;
-    filter: blur(5px);
-    background: url(images/main.png) no-repeat center top fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  position: relative;
+  z-index: 3;
 }
+
 .menu-main {
-    list-style: none;
-    margin: 40px 0 5px;
-    padding: 25px 0 5px;
-    text-align: center;
-    color: white;
-  }
-  .menu-main li {display: inline-block;} {
-      color: white;
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  color: white;
 }
+
+.menu-main li {
+  display: inline-block;
+}
+
+.menu-main li:after {
+  content: "|";
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu-main li:last-child:after {
+  content: none;
+}
+
+.menu-main a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+  color: white;
+}
+
+.menu-main a,
+.menu-main a:visited {
+  color: #000000;
+}
+
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #feb386;
+  transition: .8s;
+}
+
+@media (max-width: 550px) {
+  .menu-main {
+    padding-top: 0;
+  }
+
+  .menu-main li {
+    display: block;
+  }
+
   .menu-main li:after {
-    content: "|";
-    color: black;
-    display: inline-block;
-    vertical-align:top;
+    content: none;
   }
-  .menu-main li:last-child:after {content: none;}
+
   .menu-main a {
-    text-decoration: none;
-    letter-spacing: 2px;
-    position: relative;
-    padding-bottom: 20px;
-    margin: 0 34px 0 30px;
-    font-size: 17px;
-    text-transform: uppercase;
-    display: inline-block;
-    transition: color .2s;
-      color: white;
-  }
-  .menu-main a, .menu-main a:visited {color: #000000;}
-  .menu-main a:before,
-  .menu-main a:after {
-    content: "";
-    position: absolute;
-    height: 4px;
-    top: auto;
-    right: 50%;
-    bottom: -5px;
-    left: 50%;
-    background: #feb386;
-    transition: .8s;
-  }
-  @media (max-width: 550px) {
-  .menu-main {padding-top: 0;}
-  .menu-main li {display: block;}
-  .menu-main li:after {content: none;}
-  .menu-main a {
-    padding: 25px 0 20px; 
+    padding: 25px 0 20px;
     margin: 0 30px;
   }
-  }
-.sitename{
- text-align: center;   
 }
+
+.sitename {
+  text-align: center;
+}
+
 /* Кнопка выпадающего списка */
 .dropbtn {
   background-color: #4CAF50;
@@ -130,7 +150,7 @@ footer{
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -143,13 +163,19 @@ footer{
 }
 
 /* Изменение цвета выпадающих ссылок при наведении курсора */
-.dropdown-content button:hover {background-color: #ddd;}
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
 
 /* Показать выпадающее меню при наведении курсора */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
 /* Контейнер <div> - необходим для размещения выпадающего содержимого */
 .dropdown2 {
@@ -163,7 +189,7 @@ footer{
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   color: black;
 }
@@ -171,10 +197,16 @@ footer{
 
 
 /* Изменение цвета выпадающих ссылок при наведении курсора */
-.dropdown-content button:hover {background-color: #ddd;}
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
 
 /* Показать выпадающее меню при наведении курсора */
-.dropdown2:hover .dropdown2-content {display: block;}
+.dropdown2:hover .dropdown2-content {
+  display: block;
+}
 
 /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
-.dropdown2:hover .dropbtn {background-color: #3e8e41;}
+.dropdown2:hover .dropbtn {
+  background-color: #3e8e41;
+}

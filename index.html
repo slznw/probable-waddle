@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,79 +8,93 @@
 	<link href="style.css" rel="stylesheet">
 	<title>НашБлог</title>
 </head>
-<body style='overflow-x:hidden;'>
-<div class="content">
-	<h1 class="sitename">НашБлог</h1>
-	<ul class="menu-main">
-		<li><a href="#top">заГлавная</a></li>
-		<li><a href="#about-maker-site">Информация о сайте</a></li>
-		<li><a href="#addnews">Добавить новость</a></li>
-		<li><a href="#news">Новостной блок</a></li>
-	  </ul>
-	  <a name="top"></a>
-	<div class="main-block">
-		<h2>Будьте на нашей волне :D</h2>
-	</div>
-	<br>
-	<br>
-	<div class="about-maker">
-		<a name="about-maker-site"</a>
-		<h2>О создателе сайта</h2>
-		<br>
-		Привет! Я Семен, начинающий разработчик. Уже сейчас могу сделать сайт на html+css+js. Если вы зашли на этот сайт, то либо вы проверяете мою дипломную работу, либо вы просто не знаете куда деть свое время. Изучаю JS. В будущем планирую изучать python и bash.
-	</div>
-	<div class="about-site">
-		<h2 class="about">О сайте</h2>
-		<br>
-		<p>Это блог. Тут можно самому добавить новость. Добавляйте в поле ниже и радуйтесь добавленным новостям, а если что-то не понравилось, вы сможете с легкостью переписать свою новость. Добавление новостей реализованно с помощью localStorage, а для добавления доступно 5 слотов. Весь код можно найти на <a href="https://github.com/selezneww/probable-waddle">GitHub</a></p>
-	</div>
-	<br>
-	<br>
-	<div class="addnews-block">
 
-</div>
+<body style='overflow-x:hidden;'>
+	<div class="content">
+		<a href="https://selezneww.github.io/probable-waddle/"><img src="images/nashblog.png"></a>
+		<ul class="menu-main">
+			<li><a href="#top">заГлавная</a></li>
+			<li><a href="#about-maker-site">Информация о сайте</a></li>
+			<li><a href="#addnews">Добавить новость</a></li>
+			<li><a href="#news">Новостной блок</a></li>
+		</ul>
+		<a name="top"></a>
+
+		<div class="about-maker">
+			<a name="about-maker-site"></a>
+			<h2>О создателе сайта</h2>
+			<br>
+			Привет! Я Семен, начинающий разработчик. Уже сейчас могу сделать сайт на html+css+js. Если вы зашли на
+			этот сайт, то либо вы проверяете мою дипломную работу, либо вы просто не знаете куда деть свое время.
+			Изучаю JS. В будущем планирую изучать python и bash.
+		</div>
+		<div class="about-site">
+			<h2 class="about">О сайте</h2>
+			<br>
+			<p>Это блог. Тут можно самому добавить новость. Добавляйте в поле ниже абсолютно новости, а
+				если вам что-то не понравилось, вы всегда сможете переписать свою новость один или более раз. Добавление
+				новостей
+				реализованно с помощью localStorage, а для добавления доступно 5 слотов. Весь код можно найти на <a
+					href="https://github.com/selezneww/probable-waddle">GitHub</a></p>
+		</div>
+		<br>
+		<br>
+		<div class="addnews-block">
+
+		</div>
 		<a name="addnews"></a>
 		<h2 class="marktext">Желаете поучаствовать в жизни сайта? Оставьте новость!</h2>
 		<br>
-		<form >
+		<form>
 			Введите имя: <input id="author" type="text" name="author">
 			<br>
 			Введите текст новости: <textarea id="text" type="textarea" name="text"></textarea>
 			<br>
 			<br>
-					<div class="dropdown">
-  <button class="dropbtn" disabled>Выберите слот для новости</button>
-  <div class="dropdown-content">
-   	 <button onclick="news_script1()" type="button">Первый слот</button>
-   	 <button onclick="news_script2()" type="button">Второй слот</button>
-   	 <button onclick="news_script3()" type="button">Третий слот</button>
-	  <button onclick="news_script4()" type="button">Четвертый слот</button>
-	  <button onclick="news_script5()" type="button">Пятый слот</button>
-  </div>
-	    </form>
-</div>
+			<div class="dropdown">
+				<button class="dropbtn" disabled>Выберите слот для новости</button>
+				<div class="dropdown-content">
+					<button onclick="news_script1()" type="button">Первый слот</button>
+					<button onclick="news_script2()" type="button">Второй слот</button>
+					<button onclick="news_script3()" type="button">Третий слот</button>
+					<button onclick="news_script4()" type="button">Четвертый слот</button>
+					<button onclick="news_script5()" type="button">Пятый слот</button>
+				</div>
+		</form>
+	</div>
 	<div class="news-block">
 		<a name="news"></a>
 		<h2 class="newspaper">Новостная лента</h2>
 		<br>
-		<p id="news-author">Автор новости1<p id="news-text">Текст новости1<br> </p></p>
+		<p id="news-author">Автор новости1
+		<p id="news-text">Текст новости1<br> </p>
+		</p>
 		<br>
-		<p id="news-author2">Автор новости2<p id="news-text2">Текст новости2<br> </p></p>
+		<p id="news-author2">Автор новости2
+		<p id="news-text2">Текст новости2<br> </p>
+		</p>
 		<br>
-		<p id="news-author3">Автор новости3<p id="news-text3">Текст новости3<br> </p></p>
+		<p id="news-author3">Автор новости3
+		<p id="news-text3">Текст новости3<br> </p>
+		</p>
 		<br>
-		<p id="news-author4">Автор новости4<p id="news-text4">Текст новости4<br> </p></p>
+		<p id="news-author4">Автор новости4
+		<p id="news-text4">Текст новости4<br> </p>
+		</p>
 		<br>
-		<p id="news-author5">Автор новости5<p id="news-text5">Текст новости5<br> </p></p>
+		<p id="news-author5">Автор новости5
+		<p id="news-text5">Текст новости5<br> </p>
+		</p>
 
 		</form>
 	</div>
-<br>
+	<br>
 	<footer>
 		by Semen Seleznev, 2023
 	</footer>
 
-</div>
-		<div class="background2"></div>
+	</div>
+	<div class="background2"></div>
 </body>
+
 </html>
